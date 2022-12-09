@@ -15,7 +15,10 @@ import { SiReactrouter } from 'react-icons/si';
 
 function Skills() {
   return (
-    <div className='px-2 mx-2'>
+    <div className='px-2 pb-12 mx-2'>
+
+
+
       <div className="overflow-x-auto w-full pb-12">
         <table className="table w-full shadow-lg">
           {/* head */}
@@ -247,6 +250,16 @@ function Skills() {
               Projects
             </Link>
             </div>
+      </div>
+      
+          {/* rating key  */}
+    <div className="card card-side bg-base-100 shadow-xl px-2 pb-12 pt-12 mx-auto">
+    
+    <figure><img src="https://th.bing.com/th/id/OIP.42N73rVOSQbQcbT9ubYcEgAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Key"/></figure>
+    <div className="card-body">
+      <h3 className="card-title">Rating Key</h3>
+      <p>All ratings are a scale of 1 star to 5 stars with 1 star being the least and 5 being the highest. Ratings are based on a self assesment of these skills.</p>
+    </div>
       </div>
     </div>
   )
